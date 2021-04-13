@@ -1,0 +1,21 @@
+{
+  "name": "euler-js",
+  "version": "0.0.4",
+  "description": "Project Euler solutions and libraries",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "test": "jasmine-ts src/test/*.ts",
+    "build-ts": "tsc"
+  },
+  "author": "John Towler",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jasmine": "^2.8.2",
+    "jasmine": "^2.8.0",
+    "jasmine-ts": "^0.2.1",
+    "ts-node": "^3.3.0",
+    "typescript": "^2.6.1"
+  },
+  "dependencies": {}
+}
